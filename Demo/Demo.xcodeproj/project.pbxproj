@@ -17,6 +17,7 @@
 		A18A02E017A8967A00812A44 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A18A02DF17A8967A00812A44 /* Default@2x.png */; };
 		A18A02E217A8967A00812A44 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A18A02E117A8967A00812A44 /* Default-568h@2x.png */; };
 		A18A02F017A96F3100812A44 /* SerializedDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A18A02EF17A96F3100812A44 /* SerializedDataStorage.m */; };
+		A18A02F417AABF7C00812A44 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18A02F317AABF7C00812A44 /* DemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		A18A02E117A8967A00812A44 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A18A02EE17A96F3100812A44 /* SerializedDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerializedDataStorage.h; sourceTree = "<group>"; };
 		A18A02EF17A96F3100812A44 /* SerializedDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerializedDataStorage.m; sourceTree = "<group>"; };
+		A18A02F217AABF7C00812A44 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		A18A02F317AABF7C00812A44 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 			children = (
 				A18A02DA17A8967900812A44 /* AppDelegate.h */,
 				A18A02DB17A8967900812A44 /* AppDelegate.m */,
+				A18A02F217AABF7C00812A44 /* DemoViewController.h */,
+				A18A02F317AABF7C00812A44 /* DemoViewController.m */,
 				A18A02D217A8967900812A44 /* Supporting Files */,
 			);
 			path = Demo;
@@ -181,6 +186,7 @@
 				A18A02D817A8967900812A44 /* main.m in Sources */,
 				A18A02DC17A8967900812A44 /* AppDelegate.m in Sources */,
 				A18A02F017A96F3100812A44 /* SerializedDataStorage.m in Sources */,
+				A18A02F417AABF7C00812A44 /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
