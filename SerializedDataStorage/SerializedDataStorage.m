@@ -121,6 +121,7 @@
     id result = [self fetchResultByIdentifier:identifier];
     if (result) {
         [self.records removeObject:result];
+        [self performSelectorInBackground:@selector(save) withObject:nil];
     }
 }
 
